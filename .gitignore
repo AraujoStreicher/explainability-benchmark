@@ -1,2 +1,5 @@
 data/CUB-200-2011
 *.pyc
+*.pth
+*.h5
+*.npy
