@@ -3,3 +3,4 @@ data/CUB-200-2011
 *.pth
 *.h5
 *.npy
+data/*
