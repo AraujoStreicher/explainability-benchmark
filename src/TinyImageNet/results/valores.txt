@@ -1,0 +1,89 @@
+Gradcam:
+
+Robustness score: 0.9707
+Broke at step: Alguns não quebravam, outros quebravam lá pro 50
+Gini Index: 0.6571
+Spatial Coherence: 1.0000
+
+Intra-class Consistency (Grad-CAM): 0.5932
+
+
+----------------------------------------------
+
+
+Integrated Gradients:
+
+
+Gini Index: 0.5129
+Spatial Coherence: 0.1651
+Robustness score: 0.3829
+Broke at step: média no 20
+
+
+Intra-class Consistency (IG): 0.1366
+
+
+
+----------------------------------------------
+
+
+Rise:
+
+Broke at step: média no passo 40
+Gini Index: 0.3931
+Spatial Coherence: 0.8230
+Robustness score: 0.9677
+
+
+Intra-class Consistency (RISE): 0.4912
+
+
+----------------------------------------------
+
+
+Scorecam:
+
+Broke at step: Alguns quebravam lá pro 50, outro nem quebravam
+Robustness score: 0.9765
+Gini Index: 0.6062
+Spatial Coherence: 0.9921
+
+Intra-class Consistency (Score-CAM): 0.6806
+
+-------------------------------------------
+Híbrido
+
+Híbrido
+
+Robustness Score:  0.6175
+Spatial Coherence: 0.0707
+Gini Index: 0.7870
+Broke at step: 1
+consistência intra classe: 0.3310
+
+---------------------------------------------
+
+CBAM
+
+Broke at step: 23
+Gini Index: 0.1550 
+Spatial Coherence: 0.9866 
+Robustness Score: 0.8733
+
+------------------------------------------- 
+IG CBAM
+
+Broke at step: 1
+Gini Index: 0.5785
+Spatial Coherence: 0.0282
+Robustness score: 0.4108
+Intra-class Consistency (IG): 0.1180
+
+
+-------------------------------
+ScoreCam CBAM
+Broke at step: 4
+Gini Index: 0.5704
+Spatial Coherence: 1.0000
+Robustness score: 0.9441
+0.1180

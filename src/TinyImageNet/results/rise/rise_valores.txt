@@ -1,0 +1,29 @@
+img0:
+Broke at step: 28
+Gini Index: 0.3965
+Spatial Coherence: 0.5442
+Robustness score: 0.9720
+
+img1:
+Broke at step: 29
+Gini Index: 0.4543
+Spatial Coherence: 1.0000
+Robustness score: 0.9638
+
+
+img2:
+Broke at step: 60
+Gini Index: 0.3508
+Spatial Coherence: 0.9685
+Robustness score: 0.9645
+
+
+
+img3:
+Broke at step: 63
+Gini Index: 0.3710
+Spatial Coherence: 0.7793
+Robustness score: 0.9706
+
+
+Intra-class Consistency (RISE): 0.4912
