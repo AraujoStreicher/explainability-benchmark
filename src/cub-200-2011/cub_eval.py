@@ -1,5 +1,5 @@
 """
-Validation script for CUB-200-2011 explainability methods.
+Validation script for explainability methods.
 """
 import numpy as np
 import torch
@@ -23,6 +23,8 @@ def get_heatmap(model, model_name, explain_fn, img_tensor, target=None):
                                    n_steps=50,
                                    internal_batch_size=10,
                                    return_convergence_delta=False)
+    elif model_name == 'GradCAM+IG':
+        base_heatmap = explain_fn(img_tensor)
     
     return base_heatmap
 
@@ -67,6 +69,7 @@ def deletion_test(model, img_tensor, heatmap, correct_class, max_steps=20, pixel
             predictions.append(pred_class)
             if pred_class != correct_class and broke is None:
                 broke = step
+                return confidences, predictions, broke
 
     return confidences, predictions, broke
 

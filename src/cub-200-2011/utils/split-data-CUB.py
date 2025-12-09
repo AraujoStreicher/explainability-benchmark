@@ -22,7 +22,7 @@ images_by_class = defaultdict(list)
 with open(IMAGES_FILE, "r") as f:
     for line in f:
         _, rel_path = line.strip().split(" ")
-        class_name = rel_path.split("/")[0]  # Ex: '001.Black_footed_Albatross'
+        class_name = rel_path.split("/")[0] 
         images_by_class[class_name].append(rel_path)
 
 print(f"Encontradas {len(images_by_class)} classes.")
